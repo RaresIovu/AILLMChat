@@ -1,0 +1,152 @@
+[
+  {
+    "subject": "matematica",
+    "grade": "V",
+    "content": "Fracții Ordinare\n\nDefiniție: O fracție a/b reprezintă a părți dintr-un întreg împărțit în b părți egale.\n• a = numărător\n• b = numitor (b ≠ 0)\n\nTipuri:\n• Subunitare: a < b\n• Echiunitare: a = b\n• Supraunitare: a > b\n\nOperații: Pentru adunare/scădere, aducem la numitor comun prin amplificare."
+  },
+  {
+    "subject": "matematica",
+    "grade": "VI",
+    "content": "Unghiuri\n\nClasificare după măsură:\n• Nul: 0°\n• Ascuțit: între 0° și 90°\n• Drept: 90°\n• Obtuz: între 90° și 180°\n• Alungit: 180°\n\nUnghiuri particulare:\n• Complementare: suma lor este 90°\n• Suplimentare: suma lor este 180°\n• Adiacente: vârf comun și o latură comună la interior."
+  },
+  {
+    "subject": "matematica",
+    "grade": "VII",
+    "content": "Rădăcina Pătrată (Algoritm)\n\nCalcularea √n:\n1. Se desparte numărul în grupe de câte două cifre de la dreapta la stânga.\n2. Se caută cel mai mare pătrat perfect mai mic decât prima grupă.\n3. Se coboară următoarea grupă și se dublează rezultatul parțial.\n\nProprietate: √x² = |x|"
+  },
+  {
+    "subject": "matematica",
+    "grade": "VIII",
+    "content": "Intervale de Numere Reale\n\nTipuri de intervale:\n• Închis: [a, b] -> toate x unde a ≤ x ≤ b\n• Deschis: (a, b) -> toate x unde a < x < b\n• Semideschis: [a, b) sau (a, b]\n\nOperații cu intervale:\n• Reuniune (∪): elementele care aparțin cel puțin unui interval.\n• Intersecție (∩): elementele comune ambelor intervale."
+  },
+  {
+    "subject": "matematica",
+    "grade": "IX",
+    "content": "Progresii Aritmetice\n\nDefiniție: Un șir în care fiecare termen (începând cu al doilea) se obține din precedentul prin adunarea unei constante r (rație).\n\nFormule:\n• Termenul general: aₙ = a₁ + (n-1)r\n• Suma primilor n termeni: Sₙ = n(a₁ + aₙ)/2\n\nCondiție: 2aₙ = aₙ₋₁ + aₙ₊₁"
+  },
+  {
+    "subject": "matematica",
+    "grade": "X",
+    "content": "Logaritmi\n\nDefiniție: logₐb = x <=> aˣ = b (unde a>0, a≠1, b>0)\n\nProprietăți:\n• logₐ(x·y) = logₐx + logₐy\n• logₐ(x/y) = logₐx - logₐy\n• logₐxⁿ = n·logₐx\n• Schimbarea bazei: logₐb = (log꜀b)/(log꜀a)"
+  },
+  {
+    "subject": "matematica",
+    "grade": "XI",
+    "content": "Matrice și Determinanți\n\nForma unei matrice: A = (aᵢⱼ) cu m linii și n coloane.\n\nDeterminant (2x2):\ndet(A) = a₁₁a₂₂ - a₁₂a₂₁\n\nDeterminant (3x3): Se folosește Regula lui Sarrus sau Regula Triunghiului.\nO matrice este inversabilă dacă și numai dacă det(A) ≠ 0."
+  },
+  {
+    "subject": "matematica",
+    "grade": "XII",
+    "content": "Legi de Compoziție\n\nFie M o mulțime. O lege de compoziție '*' pe M asociază oricărei perechi (x,y) un element x*y din M.\n\nProprietăți posibile:\n• Asociativitate: (x*y)*z = x*(y*z)\n• Comutativitate: x*y = y*x\n• Element neutru e: x*e = e*x = x\n• Elemente simetrizabile: x*x' = x'*x = e"
+  },
+  {
+    "subject": "matematica",
+    "grade": "VIII",
+    "content": "Prisma Patrulateră Regulată\n\nCaracteristici: Baza este un pătrat, muchiile laterale sunt perpendiculare pe bază.\n\nFormule:\n• Aria bazei (Ab): l²\n• Aria laterală (Al): 4 · l · h\n• Aria totală (At): Al + 2Ab\n• Volum (V): Ab · h"
+  },
+  {
+    "subject": "matematica",
+    "grade": "IX",
+    "content": "Mulțimi de Numere\n\nIerarhia mulțimilor:\n• N (Naturale): {0, 1, 2...}\n• Z (Întregi): {..., -1, 0, 1...}\n• Q (Raționale): fracții a/b\n• R\\Q (Iraționale): numere care nu se pot scrie ca fracții (ex: √2, π)\n• R (Reale): reuniunea Q ∪ (R\\Q)"
+  },
+  {
+    "subject": "fizica",
+    "grade": "VI",
+    "content": "Mărimi Fizice și Unități de Măsură\n\nSistemul Internațional (SI):\n• Lungime: metru (m)\n• Masă: kilogram (kg)\n• Timp: secundă (s)\n• Temperatură: kelvin (K)\n\nMultipli și submultipli:\nkilo- (10³), deci- (10⁻¹), centi- (10⁻²), mili- (10⁻³)."
+  },
+  {
+    "subject": "fizica",
+    "grade": "VII",
+    "content": "Densitatea Corpurilor\n\nDefiniție: Mărimea fizică egală cu raportul dintre masa unui corp și volumul acestuia.\n\nFormula: ρ = m / V\n• ρ (rho) = densitatea (kg/m³ sau g/cm³)\n• m = masa\n• V = volum\n\nExemplu: ρ_apă = 1000 kg/m³"
+  },
+  {
+    "subject": "fizica",
+    "grade": "VIII",
+    "content": "Lentile Convergente și Divergente\n\nCONVERGENTE: Mai groase la mijloc, adună razele de lumină (ex: lupa).\nDIVERGENTE: Mai subțiri la mijloc, împrăștie razele de lumină.\n\nFormula lentilelor:\n1/f = 1/x₂ - 1/x₁\n• f = distanța focală\n• x₁ = distanța obiect-lentilă\n• x₂ = distanța imagine-lentilă"
+  },
+  {
+    "subject": "fizica",
+    "grade": "IX",
+    "content": "Mișcarea Rectilinie Uniform Variată (MRUV)\n\nCaracteristici: Traiectorie dreaptă, accelerație constantă (a ≠ 0).\n\nFormule:\n• Viteza: v = v₀ + a·t\n• Coordonata: x = x₀ + v₀·t + (a·t²)/2\n• Ecuația lui Galilei: v² = v₀² + 2·a·d"
+  },
+  {
+    "subject": "fizica",
+    "grade": "X",
+    "content": "Teoria Cinetică a Gazelor\n\nParametri de stare: Presiune (p), Volum (V), Temperatură (T).\n\nEcuația de stare (Clapeyron-Mendeleev):\np·V = ν·R·T\n• ν = număr de moli\n• R = 8.31 J/mol·K (constanta gazelor)\n\nTransformări:\n• Izobară (p=const): V/T = const\n• Izocoră (V=const): p/T = const"
+  },
+  {
+    "subject": "fizica",
+    "grade": "XI",
+    "content": "Unde Mecanice\n\nDefiniție: Propagarea unei perturbații într-un mediu elastic, însoțită de transport de energie, dar fără transport de substanță.\n\nClasificare:\n• Transversale: vibrația este perpendiculară pe direcția de propagare.\n• Longitudinale: vibrația este pe aceeași direcție cu propagarea (ex: sunetul)."
+  },
+  {
+    "subject": "fizica",
+    "grade": "XII",
+    "content": "Fizică Atomică - Modelul Bohr\n\nPostulatele lui Bohr:\n1. Electronul se mișcă pe orbite staționare fără a emite energie.\n2. Absorbția sau emisia de lumină are loc doar la saltul între orbite: ΔE = h·f\n\nh = constanta lui Planck"
+  },
+  {
+    "subject": "fizica",
+    "grade": "VII",
+    "content": "Forța Arhimedică\n\nEnunț: Un corp scufundat într-un lichid este împins de jos în sus cu o forță egală cu greutatea volumului de lichid dezlocuit.\n\nFormula: Fa = ρ_lichid · g · V_submers\n\nCondiții de plutire:\n• G > Fa: corpul se scufundă\n• G = Fa: corpul plutește în interior\n• G < Fa: corpul se ridică la suprafață"
+  },
+  {
+    "subject": "fizica",
+    "grade": "VIII",
+    "content": "Circuite Electrice Simple\n\nComponente: Generator (baterie), Conductoare, Consumator (bec), Întrerupător.\n\nLegea lui Ohm pentru o porțiune de circuit:\nI = U / R\n• I = intensitatea curentului (Amperi - A)\n• U = tensiunea electrică (Volți - V)\n• R = rezistența (Ohm - Ω)"
+  },
+  {
+    "subject": "fizica",
+    "grade": "X",
+    "content": "Căldura și Temperatura\n\nCăldura (Q) este energia transferată între corpuri datorită diferenței de temperatură.\n\nFormula calorimetriei:\nQ = m · c · ΔT\n• m = masa\n• c = căldura specifică a substanței\n• ΔT = variația de temperatură (T_final - T_inițial)"
+  },
+  {
+    "subject": "biologie",
+    "grade": "V",
+    "content": "Celula - Unitatea de Bază\n\nComponente principale:\n1. Membrană: protejează celula.\n2. Citoplasmă: substanța gelatinoasă în care se află organitele.\n3. Nucleu: conține informația genetică (creierul celulei).\n\nDiferență: Celula vegetală are în plus perete celular și cloroplaste pentru fotosinteză."
+  },
+  {
+    "subject": "biologie",
+    "grade": "VI",
+    "content": "Sistemul Digestiv la Om\n\nTraseul alimentelor:\nGură (masticare, amilază) -> Esofag -> Stomac (suc gastric) -> Intestin subțire (absorbția nutrienților) -> Intestin gros (absorbția apei) -> Defecație.\n\nGlande anexe: Ficatul (produce bila) și Pancreasul."
+  },
+  {
+    "subject": "biologie",
+    "grade": "VII",
+    "content": "Sistemul Nervos\n\nComponente:\n• Central (SNC): Creier și măduva spinării.\n• Periferic (SNP): Nervi.\n\nUnitatea funcțională: Neuronul (corp celular, dendrite și axon).\n\nFuncție: Recepționează stimuli din mediu și coordonează reacțiile organismului prin impulsuri electrice."
+  },
+  {
+    "subject": "biologie",
+    "grade": "IX",
+    "content": "Genetica - Legile lui Mendel\n\n1. Legea purității gameților.\n2. Legea segregării independente a perechilor de caractere.\n\nTermeni cheie:\n• Genotip: totalitatea genelor.\n• Fenotip: aspectul exterior.\n• Homozigot: gene identice (AA sau aa).\n• Heterozigot: gene diferite (Aa)."
+  },
+  {
+    "subject": "biologie",
+    "grade": "X",
+    "content": "Fotosinteza\n\nDefiniție: Procesul prin care plantele verzi transformă apa și dioxidul de carbon în substanțe organice, folosind energia luminii.\n\nEcuația chimică:\n6CO₂ + 6H₂O + lumină -> C₆H₁₂O₆ (glucoză) + 6O₂\n\nLocație: Cloroplaste (conțin clorofilă)."
+  },
+  {
+    "subject": "biologie",
+    "grade": "XI",
+    "content": "Sistemul Circulator\n\nInima: Organ muscular cu 4 camere (2 atrii, 2 ventricule).\n\nCirculația:\n1. Mică (pulmonară): Inimă -> Plămâni (oxigenare) -> Inimă.\n2. Mare (sistemică): Inimă -> Corp (cedare oxigen) -> Inimă.\n\nComponente sânge: Hematii (transport O₂), Leucocite (imunitate), Trombocite (coagulare)."
+  },
+  {
+    "subject": "biologie",
+    "grade": "XII",
+    "content": "Evoluționismul\n\nTeoria lui Charles Darwin:\n• Selecția naturală: Supraviețuiesc indivizii cu trăsături avantajoase.\n• Variabilitatea: Indivizii aceleiași specii nu sunt identici.\n• Ereditatea: Trăsăturile se transmit urmașilor.\n\nDovezi: Fosilele, anatomia comparată, embriologia."
+  },
+  {
+    "subject": "biologie",
+    "grade": "V",
+    "content": "Regnul Fungi (Ciuperci)\n\nCaracteristici:\n• Nu fac fotosinteză (sunt heterotrofe).\n• Corpul se numește miceliu (format din hife).\n• Se înmulțesc prin spori.\n\nExemple: Drojdia de bere, Mucegaiul alb, Ciupercile cu pălărie (comestibile sau otrăvitoare)."
+  },
+  {
+    "subject": "biologie",
+    "grade": "VI",
+    "content": "Sistemul Respirator\n\nRol: Schimbul de gaze (aducerea O₂ în sânge și eliminarea CO₂).\n\nOrgane: Cavitate nazală -> Faringe -> Laringe -> Trahee -> Bronhii -> Plămâni (Alveole pulmonare).\n\nMecanism: Inspirația (activă) și Expirația (pasivă)."
+  },
+  {
+    "subject": "biologie",
+    "grade": "VIII",
+    "content": "Ecologia - Ecosistemul\n\nComponente:\n1. Biotop: Factorii fără viață (apă, aer, sol, lumină).\n2. Biocenoză: Totalitatea ființelor vii dintr-un habitat.\n\nLanțul trofic:\nProducători (plante) -> Consumatori primari (ierbivore) -> Consumatori secundari (carnivore) -> Descompunători (bacterii, ciuperci)."
+  }
+]
