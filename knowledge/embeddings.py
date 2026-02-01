@@ -154,3 +154,5 @@ def search_semantic(query: str, top_k, subject, grade):
 def ensure_index():
     if not load_faiss_index_if_exists():
         build_faiss_index()
+
+
