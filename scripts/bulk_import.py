@@ -5,12 +5,10 @@ import json
 import logging
 from pathlib import Path
 
-# Adaugă directorul rădăcină în path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from knowledge.service import add_knowledge
 
-# Configurarea logging se pune de obicei la început, în afara funcțiilor
 logging.basicConfig(
     level=logging.INFO, 
     format='%(asctime)s - %(levelname)s - %(message)s'
@@ -45,7 +43,6 @@ def import_from_json(file_path):
         logging.error(f"Eroare critică la import: {e}")
         return 0
 
-# --- ACEASTA ESTE PARTEA CARE LIPSEA ---
 if __name__ == "__main__":
     # Verificăm dacă ai dat un argument în linia de comandă (numele fișierului)
     if len(sys.argv) > 1:

@@ -12,10 +12,13 @@ def index():
 @app.post("/api/chat")
 def api_chat():
     data = request.get_json(force=True)
-    user_msg = data.get('message', '') # 1. Utilizatorul scrie o întrebare în chat.html
-    if not user_msg:
-        return jsonify({'reply': 'Nu ai trimis niciun mesaj.'}), 400
-    reply = reply_to_user(user_msg)   #2. Trimite mesajul către logica RAG/AI
+    # Rares Iovu's logic
+    user_msg = data.get('message', '')
+    user_grd = data.get('grade', '')
+    user_sbj = data.get('subject', '')
+    if not(user_msg or user_grd or user_sbj):
+        return jsonify({'reply': 'Completați toate câmpurile.'}), 400
+    reply = reply_to_user(user_msg, user_grd, user_sbj)
     return jsonify({'reply': reply})  # 3. Trimite răspunsul profesorului înapoi
 
 if __name__ == "__main__":

@@ -95,8 +95,33 @@ def load_faiss_index_if_exists():
     except Exception as e:
         print("Could not load saved FAISS index:", e)
     return False
+#Rares Iovu's logic
 
-def search_semantic(query: str, top_k=3):
+# def search_semantic(query: str, top_k=3):
+#     global _index, _id_map
+#     if _index is None:
+#         return []
+
+#     q_emb = compute_embedding(query)
+#     q_emb = q_emb.reshape(1, -1)
+#     faiss.normalize_L2(q_emb)
+#     D, I = _index.search(q_emb, top_k)
+#     results = []
+#     for score, idx in zip(D[0], I[0]):
+#         if idx < 0:
+#             continue
+#         knowledge_id = int(_id_map[idx])
+#         con = get_connection()
+#         cur = con.cursor()
+#         cur.execute("SELECT content, subject, grade FROM knowledge WHERE id=?", (knowledge_id,))
+#         row = cur.fetchone()
+#         con.close()
+#         if row:
+#             content, subject, grade = row
+#             results.append({"id": knowledge_id, "score": float(score), "content": content, "subject": subject, "grade": grade})
+#     return results
+
+def search_semantic(query: str, top_k, subject, grade):
     global _index, _id_map
     if _index is None:
         return []
@@ -109,15 +134,21 @@ def search_semantic(query: str, top_k=3):
     for score, idx in zip(D[0], I[0]):
         if idx < 0:
             continue
+
         knowledge_id = int(_id_map[idx])
         con = get_connection()
         cur = con.cursor()
         cur.execute("SELECT content, subject, grade FROM knowledge WHERE id=?", (knowledge_id,))
         row = cur.fetchone()
         con.close()
+
         if row:
-            content, subject, grade = row
-            results.append({"id": knowledge_id, "score": float(score), "content": content, "subject": subject, "grade": grade})
+            content, s, g = row
+            if subject and s.lower() != subject.lower():
+                continue
+            if grade and g.lower() != grade.lower():
+                continue
+            results.append({"id": knowledge_id, "score": float(score), "content": content, "subject": s, "grade": g})
     return results
 
 def ensure_index():

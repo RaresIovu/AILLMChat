@@ -1,32 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
     <title>Chat AI Educațional</title>
-</head>
-<body>
-    <h1>Chat AI Educațional</h1>
-
+  </head>
+  <body>
+    <h1>Chat AI Educațional (demo)</h1>
     <form id="chat-form">
-        <input type="text" id="message" placeholder="Scrie întrebarea ta..." style="width:400px;">
-        <button type="submit">Trimite</button>
+      <input
+        type="text"
+        id="subject"
+        placeholder="Scrie materia ta..."
+        style="width: 400px"
+      />
+      <div style="margin-top: 20px; white-space: pre-wrap"></div>
+      <input
+        type="text"
+        id="grade"
+        placeholder="Scrie clasa ta..."
+        style="width: 400px"
+      />
+      <div style="margin-top: 20px; white-space: pre-wrap"></div>
+      <input
+        type="text"
+        id="message"
+        placeholder="Scrie întrebarea ta..."
+        style="width: 400px"
+      />
+      <button type="submit">Trimite</button>
+      <div id="reply" style="margin-top: 20px; white-space: pre-wrap"></div>
     </form>
 
-    <div id="reply" style="margin-top:20px; white-space:pre-wrap;"></div>
-
     <script>
-    document.getElementById('chat-form').addEventListener('submit', async function(e){
-        e.preventDefault();
-        const msg = document.getElementById('message').value;
-        if(!msg) return;
-        const resp = await fetch('/api/chat', {
-            method: 'POST',
-            headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify({message: msg})
+      document
+        .getElementById("chat-form")
+        .addEventListener("submit", async function (e) {
+          e.preventDefault();
+          const msg = document.getElementById("message").value;
+          if (!msg) return;
+          const grd = document.getElementById("grade").value;
+          const sbj = document.getElementById("subject").value;
+          const resp = await fetch("/api/chat", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              message: msg,
+              grade: grd,
+              subject: sbj,
+            }),
+          });
+          const data = await resp.json();
+          document.getElementById("reply").textContent = data.reply;
         });
-        const data = await resp.json();
-        document.getElementById('reply').textContent = data.reply;
-    });
     </script>
-</body>
+  </body>
 </html>
