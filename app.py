@@ -1,6 +1,8 @@
 from flask import Flask, request, jsonify, render_template, Response
 from knowledge.routes import knowledge_bp
 from chatbot.logic import reply_to_user
+import transformers
+print(transformers.__version__)
 
 app = Flask(__name__, template_folder="templates")
 app.register_blueprint(knowledge_bp)

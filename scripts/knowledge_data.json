@@ -2,151 +2,151 @@
   {
     "subject": "matematica",
     "grade": "IX",
-    "content": "Ecuații de Gradul Doi\n\nForma generală: ax² + bx + c = 0, unde a ≠ 0\n\nFormula rezolvantă: x₁,₂ = (-b ± √Δ) / (2a)\nDiscriminant: Δ = b² - 4ac\n\nCazuri:\n• Δ > 0: două soluții reale distincte\n• Δ = 0: o soluție reală dublă\n• Δ < 0: nu există soluții reale\n\nExemplu: x² - 5x + 6 = 0\na=1, b=-5, c=6, Δ = 25 - 24 = 1\nx₁,₂ = (5 ± 1)/2 → x₁=3, x₂=2"
+    "content": "Ecuații de Gradul Doi. . Forma generală: ax^2 + bx + c = 0, unde a ≠ 0. . Formula rezolvantă: x₁,₂ = (-b ± √Δ) / (2a). Discriminant: Δ = b^2 - 4ac. . Cazuri:. • Δ > 0: două soluții reale distincte. • Δ = 0: o soluție reală dublă. • Δ < 0: nu există soluții reale. . Exemplu: x^2 - 5x + 6 = 0. a=1, b=-5, c=6, Δ = 25 - 24 = 1. x₁,₂ = (5 ± 1)/2 → x₁=3, x₂=2"
   },
   {
     "subject": "matematica",
     "grade": "IX",
-    "content": "Funcții Pătratice\n\nForma: f(x) = ax² + bx + c\nGrafic: parabolă\n• a > 0: ramuri în sus\n• a < 0: ramuri în jos\n\nVârful parabolei: V(-b/2a, -Δ/4a)\nAxa de simetrie: x = -b/(2a)\n\nExemplu: f(x) = x² - 4x + 3\nVârf: V(2, -1)\nRădăcini: x₁=1, x₂=3"
+    "content": "Funcții Pătratice. . Forma: f(x) = ax^2 + bx + c. Grafic: parabolă. • a > 0: ramuri în sus. • a < 0: ramuri în jos. . Vârful parabolei: V(-b/2a, -Δ/4a). Axa de simetrie: x = -b/(2a). . Exemplu: f(x) = x^2 - 4x + 3. Vârf: V(2, -1). Rădăcini: x₁=1, x₂=3"
   },
   {
     "subject": "matematica",
     "grade": "X",
-    "content": "Funcții Trigonometrice\n\nFuncții principale:\n• sin x, cos x, tg x = sin/cos, ctg x = cos/sin\n\nValori notabile:\nsin 30°=1/2, sin 45°=√2/2, sin 60°=√3/2\ncos 30°=√3/2, cos 45°=√2/2, cos 60°=1/2\n\nIdentități fundamentale:\nsin²x + cos²x = 1\n1 + tg²x = 1/cos²x"
+    "content": "Funcții Trigonometrice. . Funcții principale:. • sin x, cos x, tg x = sin/cos, ctg x = cos/sin. . Valori notabile:. sin 30°=1/2, sin 45°=√2/2, sin 60°=√3/2. cos 30°=√3/2, cos 45°=√2/2, cos 60°=1/2. . Identități fundamentale:. sin^2x + cos^2x = 1. 1 + tg^2x = 1/cos^2x"
   },
   {
     "subject": "matematica",
     "grade": "VIII",
-    "content": "Teorema lui Pitagora\n\nÎntr-un triunghi dreptunghic: c² = a² + b²\n\nUnde:\n• c = ipotenuza\n• a, b = catetele\n\nExemplu: a=3, b=4\nc² = 9 + 16 = 25 → c = 5\n\nAplicații: calcularea distanțelor, verificare triunghi dreptunghic"
+    "content": "Teorema lui Pitagora. . Într-un triunghi dreptunghic: c^2 = a^2 + b^2. . Unde:. • c = ipotenuza. • a, b = catetele. . Exemplu: a=3, b=4. c^2 = 9 + 16 = 25 → c = 5. . Aplicații: calcularea distanțelor, verificare triunghi dreptunghic"
   },
   {
     "subject": "matematica",
     "grade": "VII",
-    "content": "Proporții și Procente\n\nProporție: a/b = c/d\nProprietate: a×d = b×c\n\nProcente:\n• p% din n = (p×n)/100\n• Câte % reprezintă a din b? (a/b)×100%\n\nExemplu: 20% din 150 = 30\n\nMărire cu p%: n×(1+p/100)\nMicșorare cu p%: n×(1-p/100)"
+    "content": "Proporții și Procente. . Proporție: a/b = c/d. Proprietate: a×d = b×c. . Procente:. • p% din n = (p×n)/100. • Câte % reprezintă a din b? (a/b)×100%. . Exemplu: 20% din 150 = 30. . Mărire cu p%: n×(1+p/100). Micșorare cu p%: n×(1-p/100)"
   },
   {
     "subject": "matematica",
     "grade": "X",
-    "content": "Sisteme de Ecuații Liniare\n\nSistem: ax+by=c, dx+ey=f\n\nMetode:\n1. Substituție: izolăm o necunoscută\n2. Reducere: eliminăm o necunoscută\n3. Cramer: x=Δₓ/Δ, y=Δᵧ/Δ\n\nExemplu:\n2x+3y=13\nx-y=1\nSoluție: x=4, y=3"
+    "content": "Sisteme de Ecuații Liniare. . Sistem: ax+by=c, dx+ey=f. . Metode:. 1. Substituție: izolăm o necunoscută. 2. Reducere: eliminăm o necunoscută. 3. Cramer: x=Δₓ/Δ, y=Δ^y/Δ. . Exemplu:. 2x+3y=13. x-y=1. Soluție: x=4, y=3"
   },
   {
     "subject": "matematica",
     "grade": "XI",
-    "content": "Limite de Funcții\n\nlim(x→a) f(x) = L\n\nLimite importante:\n• lim(x→∞) 1/x = 0\n• lim(x→0) sin x/x = 1\n• lim(x→∞) (1+1/x)ˣ = e\n\nOperații:\nlim[f+g] = lim f + lim g\nlim[f×g] = lim f × lim g\n\nForme nedeterminate: 0/0, ∞/∞, 0×∞"
+    "content": "Limite de Funcții. . lim(x→a) f(x) = L. . Limite importante:. • lim(x→∞) 1/x = 0. • lim(x→0) sin x/x = 1. • lim(x→∞) (1+1/x)^x = e. . Operații:. lim[f+g] = lim f + lim g. lim[f×g] = lim f × lim g. . Forme nedeterminate: 0/0, ∞/∞, 0×∞"
   },
   {
     "subject": "matematica",
     "grade": "XII",
-    "content": "Derivate\n\nDefiniție: f'(x₀) = lim(h→0) [f(x₀+h)-f(x₀)]/h\n\nDerivate fundamentale:\n• (c)' = 0\n• (xⁿ)' = n×xⁿ⁻¹\n• (eˣ)' = eˣ\n• (ln x)' = 1/x\n• (sin x)' = cos x\n• (cos x)' = -sin x\n\nReguli:\n• (f+g)' = f'+g'\n• (f×g)' = f'×g+f×g'"
+    "content": "Derivate. . Definiție: f'(x₀) = lim(h→0) [f(x₀+h)-f(x₀)]/h. . Derivate fundamentale:. • (c)' = 0. • (x^n)' = n×x^(n-1). • (e^x)' = e^x. • (ln x)' = 1/x. • (sin x)' = cos x. • (cos x)' = -sin x. . Reguli:. • (f+g)' = f'+g'. • (f×g)' = f'×g+f×g'"
   },
   {
     "subject": "matematica",
     "grade": "VI",
-    "content": "Numere Întregi\n\nZ = {..., -2, -1, 0, 1, 2, ...}\n\nOperații:\n• (+)+(+)=(+), (-)+(-)=(-)\n• (+)×(+)=(+), (-)×(-)=(+), (+)×(-)=(-)\n\nOrdinea operațiilor:\n1. Paranteze\n2. Înmulțire/Împărțire\n3. Adunare/Scădere\n\nExemplu: -3+5×(-2) = -3-10 = -13"
+    "content": "Numere Întregi. . Z = {..., -2, -1, 0, 1, 2, ...}. . Operații:. • (+)+(+)=(+), (-)+(-)=(-). • (+)×(+)=(+), (-)×(-)=(+), (+)×(-)=(-). . Ordinea operațiilor:. 1. Paranteze. 2. Înmulțire/Împărțire. 3. Adunare/Scădere. . Exemplu: -3+5×(-2) = -3-10 = -13"
   },
   {
     "subject": "matematica",
     "grade": "IX",
-    "content": "Radicali\n\nProprietăți:\n• √(a×b) = √a×√b\n• √(a/b) = √a/√b\n• (√a)² = a\n\nOperații:\n• 2√3 + 5√3 = 7√3\n• √2×√3 = √6\n\nRaționalizare:\n1/√a = √a/a\n\nExemplu: √50 = √(25×2) = 5√2"
+    "content": "Radicali. . Proprietăți:. • √(a×b) = √a×√b. • √(a/b) = √a/√b. • (√a)^2 = a. . Operații:. • 2√3 + 5√3 = 7√3. • √2×√3 = √6. . Raționalizare:. 1/√a = √a/a. . Exemplu: √50 = √(25×2) = 5√2"
   },
   {
     "subject": "fizica",
     "grade": "IX",
-    "content": "Legile lui Newton\n\n1. INERȚIA: Un corp își păstrează starea de repaus sau MRU dacă forțele se echilibrează.\n\n2. FUNDAMENTALĂ: F = m×a\n• F = forța (N)\n• m = masa (kg)\n• a = accelerația (m/s²)\n\n3. ACȚIUNE-REACȚIUNE: F₁₂ = -F₂₁\nForțele sunt egale, sensuri opuse"
+    "content": "Legile lui Newton. . 1. INERȚIA: Un corp își păstrează starea de repaus sau MRU dacă forțele se echilibrează. . 2. FUNDAMENTALĂ: F = m×a. • F = forța (N). • m = masa (kg). • a = accelerația (m/s^2). . 3. ACȚIUNE-REACȚIUNE: F₁₂ = -F₂₁. Forțele sunt egale, sensuri opuse"
   },
   {
     "subject": "fizica",
     "grade": "IX",
-    "content": "Gravitația Universală\n\nF = G×(m₁×m₂)/r²\n\nUnde:\n• G = 6.67×10⁻¹¹ N·m²/kg²\n• m₁, m₂ = mase (kg)\n• r = distanța (m)\n\nGreutate: G = m×g (g≈10 m/s²)\n\nAplicații: planete, sateliți, maree"
+    "content": "Gravitația Universală. . F = G×(m₁×m₂)/r^2. . Unde:. • G = 6.67×10^-11 N·m^2/kg^2. • m₁, m₂ = mase (kg). • r = distanța (m). . Greutate: G = m×g (g≈10 m/s^2). . Aplicații: planete, sateliți, maree"
   },
   {
     "subject": "fizica",
     "grade": "X",
-    "content": "Energie Cinetică și Potențială\n\nCINETICĂ: Ec = (m×v²)/2\n• m = masa (kg)\n• v = viteza (m/s)\n\nPOTENȚIALĂ: Ep = m×g×h\n• g ≈ 10 m/s²\n• h = înălțimea (m)\n\nCONSERVARE: Ec + Ep = constant"
+    "content": "Energie Cinetică și Potențială. . CINETICĂ: Ec = (m×v^2)/2. • m = masa (kg). • v = viteza (m/s). . POTENȚIALĂ: Ep = m×g×h. • g ≈ 10 m/s^2. • h = înălțimea (m). . CONSERVARE: Ec + Ep = constant"
   },
   {
     "subject": "fizica",
     "grade": "VIII",
-    "content": "Mișcare Rectilinie Uniformă\n\nCaracteristici:\n• Traiectorie dreaptă\n• Viteză constantă\n• Accelerație zero\n\nFormule:\nv = d/t\nd = v×t\nt = d/v\n\nConversii:\n1 m/s = 3.6 km/h\n\nExemplu: 180 km în 2h → v=90 km/h"
+    "content": "Mișcare Rectilinie Uniformă. . Caracteristici:. • Traiectorie dreaptă. • Viteză constantă. • Accelerație zero. . Formule:. v = d/t. d = v×t. t = d/v. . Conversii:. 1 m/s = 3.6 km/h. . Exemplu: 180 km în 2h → v=90 km/h"
   },
   {
     "subject": "fizica",
     "grade": "X",
-    "content": "Lucrul Mecanic și Puterea\n\nLUCRU: L = F×d×cos α\n• F = forța (N)\n• d = deplasarea (m)\n• α = unghi\n\nPUTERE: P = L/t\nUnitate: watt (W)\n\nExemplu:\nF=50N, d=10m, t=5s\nL=500J, P=100W"
+    "content": "Lucrul Mecanic și Puterea. . LUCRU: L = F×d×cos α. • F = forța (N). • d = deplasarea (m). • α = unghi. . PUTERE: P = L/t. Unitate: watt (W). . Exemplu:. F=50N, d=10m, t=5s. L=500J, P=100W"
   },
   {
     "subject": "fizica",
     "grade": "XI",
-    "content": "Oscilații Armonice\n\nEcuație: x(t) = A×sin(ω×t+φ₀)\n\n• A = amplitudinea\n• ω = pulsația = 2π/T\n• T = perioada\n• f = frecvența = 1/T\n\nPendul: T = 2π√(l/g)\n\nExemple: resort, pendul, unde"
+    "content": "Oscilații Armonice. . Ecuație: x(t) = A×sin(ω×t+φ₀). . • A = amplitudinea. • ω = pulsația = 2π/T. • T = perioada. • f = frecvența = 1/T. . Pendul: T = 2π√(l/g). . Exemple: resort, pendul, unde"
   },
   {
     "subject": "fizica",
     "grade": "XII",
-    "content": "Efectul Fotoelectric\n\nLegea Einstein: hf = W + Ec(max)\n\n• h = 6.63×10⁻³⁴ J·s (Planck)\n• f = frecvența luminii\n• W = funcție de extracție\n• Ec = energie cinetică electroni\n\nCondiție: f > f₀ (frecvența de prag)\n\nAplicații: celule fotoel., panouri solare"
+    "content": "Efectul Fotoelectric. . Legea Einstein: hf = W + Ec(max). . • h = 6.63×10^-34 J·s (Planck). • f = frecvența luminii. • W = funcție de extracție. • Ec = energie cinetică electroni. . Condiție: f > f₀ (frecvența de prag). . Aplicații: celule fotoel., panouri solare"
   },
   {
     "subject": "fizica",
     "grade": "VII",
-    "content": "Presiunea\n\nDefiniție: p = F/S\n\n• p = presiunea (Pa)\n• F = forța (N)\n• S = aria (m²)\n\n1 bar = 10⁵ Pa\n1 atm ≈ 10⁵ Pa\n\nÎn lichide: p = ρ×g×h\n\nAplicații: barometre, pompă hidraulică"
+    "content": "Presiunea. . Definiție: p = F/S. . • p = presiunea (Pa). • F = forța (N). • S = aria (m^2). . 1 bar = 10^5 Pa. 1 atm ≈ 10^5 Pa. . În lichide: p = ρ×g×h. . Aplicații: barometre, pompă hidraulică"
   },
   {
     "subject": "fizica",
     "grade": "IX",
-    "content": "Forța de Frecare\n\nTipuri:\n• Statică: Fs(max) = μs×N\n• Cinetică: Fc = μc×N\n\n• μ = coeficient de frecare\n• N = forța normală\n• μs > μc\n\nReducere: lubrifierea, rotile, șlefuire"
+    "content": "Forța de Frecare. . Tipuri:. • Statică: Fs(max) = μs×N. • Cinetică: Fc = μc×N. . • μ = coeficient de frecare. • N = forța normală. • μs > μc. . Reducere: lubrifierea, rotile, șlefuire"
   },
   {
     "subject": "fizica",
     "grade": "X",
-    "content": "Impulsul\n\nImpuls: p = m×v (kg·m/s)\n\nConservare:\nm₁v₁ + m₂v₂ = m₁v₁' + m₂v₂'\n\nCiocniri:\n• Elastice: se conservă Ec și p\n• Inelastice: doar p\n\nAplicații: ciocniri, recul, propulsie"
+    "content": "Impulsul. . Impuls: p = m×v (kg·m/s). . Conservare:. m₁v₁ + m₂v₂ = m₁v₁' + m₂v₂'. . Ciocniri:. • Elastice: se conservă Ec și p. • Inelastice: doar p. . Aplicații: ciocniri, recul, propulsie"
   },
   {
     "subject": "chimie",
     "grade": "VII",
-    "content": "Structura Atomului\n\nNUCLEU:\n• Protoni (p⁺) - pozitivi\n• Neutroni (n⁰) - neutri\n\nÎNVELIȘ:\n• Electroni (e⁻) - negativi\n\nZ = nr. protoni = nr. electroni\nA = protoni + neutroni\nN = A - Z\n\nExemplu: ₁₂⁶C\nZ=6, N=6"
+    "content": "Structura Atomului. . NUCLEU:. • Protoni (p⁺) - pozitivi. • Neutroni (n⁰) - neutri. . ÎNVELIȘ:. • Electroni (e⁻) - negativi. . Z = nr. protoni = nr. electroni. A = protoni + neutroni. N = A - Z. . Exemplu: ₁₂⁶C. Z=6, N=6"
   },
   {
     "subject": "chimie",
     "grade": "VIII",
-    "content": "Tipuri de Reacții Chimice\n\n1. COMBINARE: A+B→AB\n   Ex: 2H₂+O₂→2H₂O\n\n2. DESCOMPUNERE: AB→A+B\n   Ex: 2H₂O→2H₂+O₂\n\n3. SUBSTITUȚIE: AB+C→AC+B\n   Ex: Zn+2HCl→ZnCl₂+H₂\n\n4. SCHIMB: AB+CD→AD+CB\n\nConservarea masei: masa reactanți = masa produse"
+    "content": "Tipuri de Reacții Chimice. . 1. COMBINARE: A+B→AB.    Ex: 2H₂+O₂→2H₂O. . 2. DESCOMPUNERE: AB→A+B.    Ex: 2H₂O→2H₂+O₂. . 3. SUBSTITUȚIE: AB+C→AC+B.    Ex: Zn+2HCl→ZnCl₂+H₂. . 4. SCHIMB: AB+CD→AD+CB. . Conservarea masei: masa reactanți = masa produse"
   },
   {
     "subject": "chimie",
     "grade": "IX",
-    "content": "Tabelul Periodic\n\nOrganizare:\n• 7 PERIOADE (orizontal)\n• 18 GRUPE (vertical)\n\nCategorii:\n• METALE: conductoare, luciu, maleabile\n• NEMETALE: izolatori, fragile\n• GAZE NOBLE: inerte, stabile\n\nProprietăți periodice:\n• Raza: crește în grupă, scade în perioadă\n• Electronegativitate: invers"
+    "content": "Tabelul Periodic. . Organizare:. • 7 PERIOADE (orizontal). • 18 GRUPE (vertical). . Categorii:. • METALE: conductoare, luciu, maleabile. • NEMETALE: izolatori, fragile. • GAZE NOBLE: inerte, stabile. . Proprietăți periodice:. • Raza: crește în grupă, scade în perioadă. • Electronegativitate: invers"
   },
   {
     "subject": "chimie",
     "grade": "X",
-    "content": "Legătura Chimică\n\n1. IONICĂ:\n• Metal + Nemetal\n• Transfer electroni\n• Ex: NaCl (Na⁺ + Cl⁻)\n\n2. COVALENTĂ:\n• Nemetal + Nemetal\n• Punere în comun\n• Ex: H₂, O₂, H₂O\n\n3. METALICĂ:\n• Metal + Metal\n• Electroni liberi"
+    "content": "Legătura Chimică. . 1. IONICĂ:. • Metal + Nemetal. • Transfer electroni. • Ex: NaCl (Na⁺ + Cl⁻). . 2. COVALENTĂ:. • Nemetal + Nemetal. • Punere în comun. • Ex: H₂, O₂, H₂O. . 3. METALICĂ:. • Metal + Metal. • Electroni liberi"
   },
   {
     "subject": "chimie",
     "grade": "VIII",
-    "content": "Combustia\n\nCombustibil + O₂ → CO₂ + H₂O + Energie\n\nExemple:\n• Metan: CH₄+2O₂→CO₂+2H₂O\n• Glucoză: C₆H₁₂O₆+6O₂→6CO₂+6H₂O\n\nTriunghiul focului:\n1. Combustibil\n2. Oxigen\n3. Temperatură aprindere\n\nStingere: elimină una din condiții"
+    "content": "Combustia. . Combustibil + O₂ → CO₂ + H₂O + Energie. . Exemple:. • Metan: CH₄+2O₂→CO₂+2H₂O. • Glucoză: C₆H₁₂O₆+6O₂→6CO₂+6H₂O. . Triunghiul focului:. 1. Combustibil. 2. Oxigen. 3. Temperatură aprindere. . Stingere: elimină una din condiții"
   },
   {
     "subject": "chimie",
     "grade": "XI",
-    "content": "Echilibrul Chimic\n\naA+bB ⇌ cC+dD\n\nKc = [C]ᶜ×[D]ᵈ / ([A]ᵃ×[B]ᵇ)\n\n• Kc>>1: spre produse\n• Kc<<1: spre reactanți\n\nLe Chatelier: sistem evoluează opus perturbației\n\nFactori: concentrație, temperatură, presiune"
+    "content": "Echilibrul Chimic. . aA+bB ⇌ cC+dD. . Kc = [C]^c×[D]^d / ([A]^a×[B]^b). . • Kc>>1: spre produse. • Kc<<1: spre reactanți. . Le Chatelier: sistem evoluează opus perturbației. . Factori: concentrație, temperatură, presiune"
   },
   {
     "subject": "chimie",
     "grade": "IX",
-    "content": "Acizi, Baze, Săruri\n\nACIZI: cedează H⁺, pH<7\nEx: HCl, H₂SO₄, HNO₃\n\nBAZE: cedează OH⁻, pH>7\nEx: NaOH, KOH, Ca(OH)₂\n\nSĂRURI: acid + bază\nEx: NaCl, CaSO₄\n\nNeutralizare: Acid+Bază→Sare+Apă"
+    "content": "Acizi, Baze, Săruri. . ACIZI: cedează H⁺, pH<7. Ex: HCl, H₂SO₄, HNO₃. . BAZE: cedează OH⁻, pH>7. Ex: NaOH, KOH, Ca(OH)₂. . SĂRURI: acid + bază. Ex: NaCl, CaSO₄. . Neutralizare: Acid+Bază→Sare+Apă"
   },
   {
     "subject": "chimie",
     "grade": "X",
-    "content": "Reacții Redox\n\nOXIDARE: pierdere electroni\nREDUCERE: câștig electroni\n\nReguli număr oxidare:\n• Element liber: 0\n• Ion simplu: sarcina ionului\n• H: +1, O: -2\n\nExemplu:\nZn + Cu²⁺ → Zn²⁺ + Cu\nZn se oxidează (0→+2)\nCu se reduce (+2→0)"
+    "content": "Reacții Redox. . OXIDARE: pierdere electroni. REDUCERE: câștig electroni. . Reguli număr oxidare:. • Element liber: 0. • Ion simplu: sarcina ionului. • H: +1, O: -2. . Exemplu:. Zn + Cu²⁺ → Zn²⁺ + Cu. Zn se oxidează (0→+2). Cu se reduce (+2→0)"
   },
   {
     "subject": "chimie",
     "grade": "XII",
-    "content": "Chimie Organică - Hidrocarburi\n\nALCANI: CₙH₂ₙ₊₂\n• Legături simple\n• Ex: CH₄, C₂H₆, C₃H₈\n\nALCHENE: CₙH₂ₙ\n• O legătură dublă\n• Ex: C₂H₄ (etenă)\n\nALCHINE: CₙH₂ₙ₋₂\n• O legătură triplă\n• Ex: C₂H₂ (acetilen)\n\nProprietăți: apolari, combustibili"
+    "content": "Chimie Organică - Hidrocarburi. . ALCANI: CₙH₂ₙ₊₂. • Legături simple. • Ex: CH₄, C₂H₆, C₃H₈. . ALCHENE: CₙH₂ₙ. • O legătură dublă. • Ex: C₂H₄ (etenă). . ALCHINE: CₙH₂ₙ₋₂. • O legătură triplă. • Ex: C₂H₂ (acetilen). . Proprietăți: apolari, combustibili"
   },
   {
     "subject": "chimie",
     "grade": "XI",
-    "content": "Viteza Reacției Chimice\n\nFactori care cresc viteza:\n1. Concentrația reactanților ↑\n2. Temperatura ↑\n3. Suprafața de contact ↑\n4. Catalizatori\n5. Presiunea (pentru gaze) ↑\n\nLegea vitezei:\nv = k[A]ᵐ[B]ⁿ\n\nCatalizator: crește viteza fără a se consuma"
+    "content": "Viteza Reacției Chimice. . Factori care cresc viteza:. 1. Concentrația reactanților ↑. 2. Temperatura ↑. 3. Suprafața de contact ↑. 4. Catalizatori. 5. Presiunea (pentru gaze) ↑. . Legea vitezei:. v = k[A]^m[B]^n. . Catalizator: crește viteza fără a se consuma"
   }
 ]

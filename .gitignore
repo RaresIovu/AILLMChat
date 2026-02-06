@@ -1,0 +1,17 @@
+# Python virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Numpy binary files
+*.npy
+
+# Index files
+*.index
+
+# VSCode settings
+.vscode/
