@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -37,7 +37,6 @@
         .addEventListener("submit", async function (e) {
           e.preventDefault();
           const msg = document.getElementById("message").value;
-          if (!msg) return;
           const grd = document.getElementById("grade").value;
           const sbj = document.getElementById("subject").value;
           const resp = await fetch("/api/chat", {
