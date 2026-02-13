@@ -22,7 +22,7 @@ def api_chat():
     user_grd = data.get('grade', '')
     user_sbj = data.get('subject', '')
 
-    if not (user_msg or user_grd or user_sbj):
+    if not (user_msg and user_grd and user_sbj):
         return jsonify({'reply': 'Completați toate câmpurile.'}), 400
 
     reply = reply_to_user(user_msg, user_grd, user_sbj)
